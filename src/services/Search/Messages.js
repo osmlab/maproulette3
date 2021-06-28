@@ -1,4 +1,4 @@
-import { defineMessages } from 'react-intl'
+import { defineMessages } from "react-intl";
 
 /**
  * Internationalized messages for use with Sort.
@@ -28,4 +28,12 @@ export default defineMessages({
     id: "Challenge.sort.default",
     defaultMessage: "Default",
   },
-})
+  near_complete: {
+    id: "Challenge.sort.nearComplete",
+    defaultMessage: "Near Complete (%)",
+  },
+  near_complete_num: {
+    id: "Challenge.sort.nearCompleteNum",
+    defaultMessage: "Near Complete (#)",
+  },
+});
